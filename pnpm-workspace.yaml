@@ -1,0 +1,8 @@
+# pnpm 워크스페이스 설정
+# Flutter의 melos.yaml과 유사한 역할
+
+packages:
+  # 앱들 (독립 배포 가능한 마이크로 프론트엔드)
+  - "apps/*"
+  # 공유 패키지들
+  - "packages/*"

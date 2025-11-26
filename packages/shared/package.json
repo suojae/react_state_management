@@ -1,0 +1,20 @@
+{
+  "name": "@mini-shop/shared",
+  "version": "1.0.0",
+  "private": true,
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": "./src/index.js",
+    "./store": "./src/store/index.js",
+    "./api": "./src/api/index.js"
+  },
+  "dependencies": {
+    "zustand": "^5.0.0",
+    "@tanstack/react-query": "^5.90.0"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0 || ^19.0.0",
+    "react-dom": "^18.0.0 || ^19.0.0"
+  }
+}
