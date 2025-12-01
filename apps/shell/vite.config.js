@@ -37,7 +37,7 @@ export default defineConfig({
        * - 각 앱이 같은 인스턴스 사용 → 상태 공유 가능
        * - 번들 크기 최적화
        */
-      shared: ['react', 'react-dom', 'react-router-dom', 'zustand', '@tanstack/react-query'],
+      shared: ['react', 'react-dom', 'react-router-dom', 'zustand', '@tanstack/react-query', '@mini-shop/shared'],
     }),
   ],
   build: {

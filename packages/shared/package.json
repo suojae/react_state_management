@@ -7,7 +7,8 @@
   "exports": {
     ".": "./src/index.js",
     "./store": "./src/store/index.js",
-    "./api": "./src/api/index.js"
+    "./api": "./src/api/index.js",
+    "./package.json": "./package.json"
   },
   "dependencies": {
     "zustand": "^5.0.0",

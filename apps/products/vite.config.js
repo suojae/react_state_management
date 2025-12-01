@@ -30,7 +30,7 @@ export default defineConfig({
        * shared: Shell과 동일한 의존성 공유
        * 싱글톤으로 같은 인스턴스 사용 → 상태 공유 가능
        */
-      shared: ['react', 'react-dom', 'react-router-dom', 'zustand', '@tanstack/react-query'],
+      shared: ['react', 'react-dom', 'react-router-dom', 'zustand', '@tanstack/react-query', '@mini-shop/shared'],
     }),
   ],
   build: {

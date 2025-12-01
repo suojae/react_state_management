@@ -15,7 +15,7 @@ export default defineConfig({
       exposes: {
         './App': './src/App.jsx',
       },
-      shared: ['react', 'react-dom', 'react-router-dom', 'zustand', '@tanstack/react-query'],
+      shared: ['react', 'react-dom', 'react-router-dom', 'zustand', '@tanstack/react-query', '@mini-shop/shared'],
     }),
   ],
   build: {
